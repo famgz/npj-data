@@ -1,0 +1,49 @@
+POST http://localhost:3333/users
+# POST https://node-do-zero-0ott.onrender.com/users
+Content-Type: application/json
+
+{
+    "nome": "Ana Silva",
+    "estado_civil": "Solteira",
+    "profissao": "Estudante",
+    "renda": "R$ 1.200,00",
+    "data_nascimento": "15/04/1995",
+    "naturalidade": "São Paulo/SP",
+    "rg": "45.678.322",
+    "cpf": "123.456.788-00",
+    "endereco_completo": "Rua das Flores, 123, Apt 4, Bairro Jardim, São Paulo/SP",
+    "cep": "01234-567",
+    "email": "ana.silva@email.com",
+    "natureza_lide": "Trabalhista"
+}
+
+###
+
+GET http://localhost:3333/users?search=
+# GET https://node-do-zero-0ott.onrender.com/users?search=
+
+###
+
+PUT http://localhost:3333/users/291a78b3-b994-4169-a1b4-22e332b3a11a
+# PUT https://node-do-zero-0ott.onrender.com/users/291a78b3-b994-4169-a1b4-22e332b3a11a
+Content-Type: application/json
+
+{
+    "nome": "Ana Silva",
+    "estado_civil": "Solteira",
+    "profissao": "Estudante",
+    "renda": "R$ 1.200,00",
+    "data_nascimento": "15/04/1995",
+    "naturalidade": "São Paulo/SP",
+    "RG": "45.678.321",
+    "CPF": "123.456.789-00",
+    "endereco_completo": "Rua das Flores, 123, Apt 4, Bairro Jardim, São Paulo/SP",
+    "CEP": "01234-567",
+    "email": "ana.silva@email.com",
+    "natureza_lide": "Trabalhista"
+}
+
+###
+
+DELETE http://localhost:3333/users/dc62144e-7e62-4494-a36a-7b1b3f5b7dd6
+# DELETE https://node-do-zero-0ott.onrender.com/users/d5058b64-a6b5-48f6-bd22-bd5b4b5e53d2

@@ -1,0 +1,38 @@
+// criar package.json
+npm init -y
+
+node server.js
+
+node --watch --no-warnings server.js // --watch = auto refresh changes
+
+// add above code to package.json['scripts']['dev']
+
+npm run dev
+
+// framework fastify
+npm install fastify
+
+// install vscode extension REST Client
+
+// create `routes.http` inside project folder (could be any name *.http)
+
+// online postgres
+neon.tech
+
+npm install postgres
+
+// https://github.com/porsager/postgres
+
+npm install dotenv -D
+
+// render.com -> deploy from github
+
+// https://node-do-zero-0ott.onrender.com/videos
+
+----------------------------------------
+
+// localizar porta
+netstat -ano | findstr :3333
+
+// derrubar porta
+npx kill-port 3333
