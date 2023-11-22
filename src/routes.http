@@ -1,5 +1,4 @@
 POST http://localhost:3333/users
-# POST https://node-do-zero-0ott.onrender.com/users
 Content-Type: application/json
 
 {
@@ -20,12 +19,10 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3333/users?search=
-# GET https://node-do-zero-0ott.onrender.com/users?search=
 
 ###
 
 PUT http://localhost:3333/users/291a78b3-b994-4169-a1b4-22e332b3a11a
-# PUT https://node-do-zero-0ott.onrender.com/users/291a78b3-b994-4169-a1b4-22e332b3a11a
 Content-Type: application/json
 
 {
@@ -46,4 +43,3 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3333/users/dc62144e-7e62-4494-a36a-7b1b3f5b7dd6
-# DELETE https://node-do-zero-0ott.onrender.com/users/d5058b64-a6b5-48f6-bd22-bd5b4b5e53d2
