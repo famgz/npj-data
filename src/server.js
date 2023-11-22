@@ -4,10 +4,8 @@ import { DatabasePostgres } from './database-postgres.js'
 
 const server = fastify()
 
-
 // const database = new DatabaseMemory()
 const database = new DatabasePostgres()
-
 
 // upload user
 server.post('/users', async (request, reply) => {

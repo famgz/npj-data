@@ -16,6 +16,7 @@ function readJSON(filePath) {
 async function logUsers(users) {
     for(const [id, data] of Object.entries(users)) {
         await database.create(data)
+        console.log('User ${data.name} logged in database')
     }
 }
 
@@ -31,6 +32,4 @@ for(const [id, data] of Object.entries(mockUsers)) {
     console.log(data)
 }
 
-// logUsers(mockUsers)
-
-
+logUsers(mockUsers)

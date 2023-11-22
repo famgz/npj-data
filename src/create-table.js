@@ -3,7 +3,7 @@ import { sql } from './db.js'
 // sql`
 //     DROP table if exists users;
 // `.then(() => {
-//     console.log('table deleted')
+//     console.log('table `users` deleted')
 // })
 
 sql`
